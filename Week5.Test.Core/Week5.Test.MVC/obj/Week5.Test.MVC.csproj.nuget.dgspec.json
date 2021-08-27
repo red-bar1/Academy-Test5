@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.MVC\\Week5.Test.MVC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.Core\\Week5.Test.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.Core\\Week5.Test.Core.csproj",
+        "projectName": "Week5.Test.Core",
+        "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.Core\\Week5.Test.Core.csproj",
+        "packagesPath": "C:\\Users\\giulia.tuttobene\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\giulia.tuttobene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.EF\\Week5.Test.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.EF\\Week5.Test.EF.csproj",
+        "projectName": "Week5.Test.EF",
+        "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.EF\\Week5.Test.EF.csproj",
+        "packagesPath": "C:\\Users\\giulia.tuttobene\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\giulia.tuttobene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.Core\\Week5.Test.Core.csproj": {
+                "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.Core\\Week5.Test.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.MVC\\Week5.Test.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.MVC\\Week5.Test.MVC.csproj",
+        "projectName": "Week5.Test.MVC",
+        "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.MVC\\Week5.Test.MVC.csproj",
+        "packagesPath": "C:\\Users\\giulia.tuttobene\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\giulia.tuttobene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.Core\\Week5.Test.Core.csproj": {
+                "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.Core\\Week5.Test.Core.csproj"
+              },
+              "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.EF\\Week5.Test.EF.csproj": {
+                "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\Academy\\Academy 5\\Week5.Test.Core\\Week5.Test.EF\\Week5.Test.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

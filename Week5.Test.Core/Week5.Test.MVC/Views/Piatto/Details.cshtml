@@ -1,0 +1,29 @@
+﻿@model Piatto
+@{ ViewData["Title"] = "Details";}
+
+<h1 class="align-content-center">Details</h1>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th></th>
+                <th>Descrizione</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.Nome</td>
+                <td></td>
+                <td>@Model.Descrizione</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

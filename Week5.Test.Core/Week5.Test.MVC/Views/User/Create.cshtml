@@ -1,0 +1,23 @@
+﻿@model UserViewModel
+
+<form asp-action="Create">
+    <div asp-validation-summary="All"></div>
+
+    <input type="hidden" asp-for="ReturnURL" />
+
+    <label asp-for="Username"></label>
+    <input asp-for="Username" />
+    <span asp-validation-for="Username"></span>
+    <label asp-for="Password"></label>
+    <input asp-for="Password" />
+    <span asp-validation-for="Password"></span>
+
+    <br />
+
+    <input type="submit" value="Iscriviti" class="btn btn-outline-primary" />
+
+
+
+</form>
+
+

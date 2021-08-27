@@ -1,0 +1,30 @@
+﻿@model Piatto
+
+@{ ViewData["Title"] = "Delete";}
+
+<h1 class="align-content-center">Check the details before delete the item</h1>
+
+<form asp-action="Delete">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th></th>
+                <th>Descrizione</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.Nome</td>
+                <td></td>
+                <td>@Model.Descrizione</td>
+            </tr>
+        </tbody>
+            
+        
+    </table>
+    
+
+    <input type="submit" class="btn btn-outline-danger" value="Delete" />
+    <a class="btn btn-info" asp-controller="Piatto" asp-action="Index">Back to List</a>
+</form>
